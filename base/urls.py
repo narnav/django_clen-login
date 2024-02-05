@@ -8,5 +8,7 @@ urlpatterns = [
     path('', views.index),
     path('login/', TokenObtainPairView.as_view()),
     path('secret/', views.secret),
+    path('register/', views.register),
+    path('products/', views.ProductView.as_view()),
     
 ]
